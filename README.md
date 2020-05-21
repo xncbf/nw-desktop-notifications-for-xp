@@ -14,6 +14,7 @@ By including nw-desktop-notifications.js and nw-desktop-notifications.html in yo
 
 
 ##Running the demo
+(0) download nw on https://dl.nwjs.io/v0.14.7
 
 (1) Clone this project
 
