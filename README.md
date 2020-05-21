@@ -1,3 +1,6 @@
+https://github.com/robrighter/nw-desktop-notifications
+I made this repository for xp of the above project
+
 ##NW Desktop Notifications
 
 A simple system for creating desktop notifications for [node-webkit](https://github.com/rogerwang/node-webkit) applications.
