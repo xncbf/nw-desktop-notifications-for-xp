@@ -19,13 +19,9 @@ By including nw-desktop-notifications.js and nw-desktop-notifications.html in yo
 
 (2) cd into the project
 
-(3) make the nw zip file
+(3) Run the nw application
 
-	./make-nw
-
-(4) Run the nw application
-
-	nw desktop-notify.nw
+	nw .
 
 (This assumes you have nw aliased to node-webkit)
 
