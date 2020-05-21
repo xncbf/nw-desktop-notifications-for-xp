@@ -8,7 +8,7 @@
 			'nw-desktop-notifications.html', {
 			frame: false,
 			width: WINDOW_WIDTH,
-			height: 0,
+			height: 100,
 			show: false,
 			resizable: false
 		}, function(win){
@@ -20,6 +20,7 @@
 				window.LOCAL_NW.DesktopNotificationsWindowIsLoaded = true;
 				$(win.window.document.body).find('#closer').click(function(){
 					slideOutNotificationWindow();
+					closeAnyOpenNotificationWindows();
 				});
 
 				var continuation = function(){

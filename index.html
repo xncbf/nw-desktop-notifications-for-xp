@@ -60,12 +60,12 @@
 			var content = form.find('input[name=content]').val();
 
 			window.LOCAL_NW.desktopNotifications.notify(icon, title, content, function(){
+				window.LOCAL_NW.desktopNotifications.closeAnyOpenNotificationWindows()
 				$('#status').text('Clicked on '+title);
 				$('#status').fadeIn('fast',function(){
 					setTimeout(function(){
 						$('#status').fadeOut('fast');
 					},1800);
-					window.LOCAL_NW.desktopNotifications.closeAnyOpenNotificationWindows()
 				});
 			});
 		});
