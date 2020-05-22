@@ -14,17 +14,18 @@ By including nw-desktop-notifications.js and nw-desktop-notifications.html in yo
 
 
 # Running the demo  
-(0) download nw on https://dl.nwjs.io/v0.14.7
 
-(1) Clone this project
+1. download nw on https://dl.nwjs.io/v0.14.7
 
-(2) cd into the project
+2. Clone this project
 
-(3) Run the nw application
+3. cd into the project
+
+4. Run the nw application
 
 	nw .
 
-(This assumes you have nw aliased to node-webkit)
+> This assumes you have nw aliased to node-webkit
 
 	alias nw='~/Applications/node-webkit.app/Contents/MacOS/node-webkit'
 
