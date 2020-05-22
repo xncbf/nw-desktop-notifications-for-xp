@@ -29,6 +29,11 @@ By including nw-desktop-notifications.js and nw-desktop-notifications.html in yo
 
 	alias nw='~/Applications/node-webkit.app/Contents/MacOS/node-webkit'
 
+### for mac
+```
+nwjs.app/Contents/MacOS/nwjs .
+```
+
 
 # Update the Look-and-Feel
 
