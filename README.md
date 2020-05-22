@@ -1,5 +1,5 @@
 https://github.com/robrighter/nw-desktop-notifications  
-I made this repository for xp of the above project
+I made this Based on above repository for windows xp.
 
 # NW Desktop Notifications
 
