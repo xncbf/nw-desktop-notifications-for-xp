@@ -33,6 +33,8 @@ By including nw-desktop-notifications.js and nw-desktop-notifications.html in yo
 ```
 nwjs.app/Contents/MacOS/nwjs .
 ```
+### for windows
+drag workspace folder to nw.exe
 
 
 # Update the Look-and-Feel
