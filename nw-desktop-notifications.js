@@ -38,11 +38,6 @@
 				return true;
 			});
 		});
-		
-		// win.on('loaded', function(){
-			// sleep(100)
-			
-		// });
 	}
 
 	function closeAnyOpenNotificationWindows(){
