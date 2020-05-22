@@ -3,6 +3,13 @@
 	var counter = 0;
 	window.LOCAL_NW = {};
 	 
+	soundManager.setup({
+		// where to find flash audio SWFs, as needed
+		url: '/path/to/swf-files/',
+		onready: function() {
+			// SM2 is ready to play audio!
+		}
+	});
 	function makeNewNotifyWindow(icon, title, content, onClick){
 		nw.Window.open(
 			'nw-desktop-notifications.html', {
@@ -47,10 +54,14 @@
 		}
 	}
 
-	function notify(icon, title, content, onClick){
-
+	function notify(icon, title, content, audio, onClick){
 		if(!window.LOCAL_NW.DesktopNotificationsWindow){
 			makeNewNotifyWindow(icon, title, content, onClick);
+
+			var mySound = soundManager.createSound({
+				url: audio
+			});
+			mySound.play();
 		}
 	}
 
